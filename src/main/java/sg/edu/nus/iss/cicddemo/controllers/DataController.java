@@ -10,7 +10,7 @@ import com.github.javafaker.Faker;
 public class DataController {
 	@GetMapping("/")
 	public String healthCheck() {
-		return "HEY Thazin: HEALTH CHECK OK!";
+		return "HEY Thazin: HEALTH CHECK OK, TESTING IS GOOD!";
 	}
 
 	@GetMapping("/version")
